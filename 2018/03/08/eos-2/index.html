@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>听说你买了 EOS ，连代码什么样都不知道？ | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="最近发现很多人投资了 EOS，却并不关心 EOS 目前的开发进度和技术细节，如果你投资了 EOS， 还有一定的技术基础，那就更应该关心 EOS 的开发情况了，下面我们就从 EOS 的源代码说起： Github 是目前最流行的源码管理网站，无数明星项目都在 Github 上开发，这其中当然也包括了 EOS。 EOS 在 Github 上的地址：https://github.com/EOSIO/ 里面">
+<meta property="og:type" content="article">
+<meta property="og:title" content="听说你买了 EOS ，连代码什么样都不知道？">
+<meta property="og:url" content="http://yoursite.com/2018/03/08/eos-2/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="最近发现很多人投资了 EOS，却并不关心 EOS 目前的开发进度和技术细节，如果你投资了 EOS， 还有一定的技术基础，那就更应该关心 EOS 的开发情况了，下面我们就从 EOS 的源代码说起： Github 是目前最流行的源码管理网站，无数明星项目都在 Github 上开发，这其中当然也包括了 EOS。 EOS 在 Github 上的地址：https://github.com/EOSIO/ 里面">
+<meta property="og:image" content="http://yoursite.com/images/eos_2_source.jpg">
+<meta property="og:image" content="http://yoursite.com/images/zhishixingqiu.png">
+<meta property="og:image" content="http://yoursite.com/images/yfygongzhong.jpg">
+<meta property="og:updated_time" content="2018-03-08T06:33:57.537Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="听说你买了 EOS ，连代码什么样都不知道？">
+<meta name="twitter:description" content="最近发现很多人投资了 EOS，却并不关心 EOS 目前的开发进度和技术细节，如果你投资了 EOS， 还有一定的技术基础，那就更应该关心 EOS 的开发情况了，下面我们就从 EOS 的源代码说起： Github 是目前最流行的源码管理网站，无数明星项目都在 Github 上开发，这其中当然也包括了 EOS。 EOS 在 Github 上的地址：https://github.com/EOSIO/ 里面">
+<meta name="twitter:image" content="http://yoursite.com/images/eos_2_source.jpg">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-eos-2" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/03/08/eos-2/" class="article-date">
+  <time datetime="2018-03-08T06:23:10.000Z" itemprop="datePublished">2018-03-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      听说你买了 EOS ，连代码什么样都不知道？
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>最近发现很多人投资了 EOS，却并不关心 EOS 目前的开发进度和技术细节，如果你投资了 EOS， 还有一定的技术基础，那就更应该关心 EOS 的开发情况了，下面我们就从 EOS 的源代码说起：</p>
+<p>Github 是目前最流行的源码管理网站，无数明星项目都在 Github 上开发，这其中当然也包括了 EOS。 EOS 在 Github 上的地址：<br><a href="https://github.com/EOSIO/" target="_blank" rel="noopener">https://github.com/EOSIO/</a></p>
+<p>里面有多个目录，首先就是白皮书，这是区块链项目的根基：<br><a href="https://github.com/EOSIO/Documentation" target="_blank" rel="noopener">https://github.com/EOSIO/Documentation</a></p>
+<p>里面的中文版翻译的实在不怎么样，有基础的推荐直接看英文版。<br>说点题外话：如果你想提高英语的话，持有一点 EOS 代币吧，你会急于搞清楚白皮书在讲什么，要是想短时间快速提高英语，持有大量 EOS 代币吧，别问我是怎么知道的^_^。</p>
+<p>源代码在此：<br><a href="https://github.com/EOSIO/eos" target="_blank" rel="noopener">https://github.com/EOSIO/eos</a><br><img src="/images/eos_2_source.jpg" alt=""></p>
+<p>主要代码都在这个工程里，不过有一部分引用了别的工程，同步时使用 –recursive 命令可以全部下载下来。这里可以看到，EOS 是用 C/C++ 开发的，Dan 说主要原因是 C/C++ 的效率非常高，可以支撑商业级的应用。</p>
+<p>至于如何下载/同步源代码，可以查看 Github 的教程或者搜索一下，这里推荐使用 Github 的官方桌面客户端：<br><a href="https://desktop.github.com/" target="_blank" rel="noopener">https://desktop.github.com/</a></p>
+<p>桌面客户端最大的优点是可以图形化地看到每天的代码更新，就像看着一个 baby 在生长。你会发现 EOS 代码的开发速度是非常快的。</p>
+<p>另外怎么能少了官方的 wiki：<br><a href="https://github.com/EOSIO/eos/wiki" target="_blank" rel="noopener">https://github.com/EOSIO/eos/wiki</a></p>
+<p>有了这个 wiki 基本就能指导你从零开始开发一个智能合约，需要一定基础。不过别怕，谁也不是生下来就一米八的。</p>
+<p>有了这些，我们来看看 EOS 源码的目录结构吧：</p>
+<p>├─.git // github 工程配置文件<br>├─build // 编译后的程序在此<br>├─CMakeModules // EOS 项目使用CMake构建<br>├─contracts // 示例智能合约代码<br>│ ├─currency //示例代币合约<br>│ ├─dice<br>│ ├─eos<br>│ ├─eoslib<br>│ ├─exchange<br>│ ├─infinite<br>│ ├─proxy<br>│ ├─simpledb<br>│ ├─skeleton<br>│ ├─social<br>│ ├─storage<br>│ ├─test_api<br>│ └─tic_tac_toe // 使用智能合约开发的小游戏<br>├─Docker // EOS 支持 Docker 容器<br>├─docs // HTML 格式的 API 文档<br>├─libraries //各种库代码<br>│ ├─abi_generator // 自动 abi 生成器<br>│ ├─appbase // eos 服务器端插件的框架<br>│ ├─chain<br>│ ├─chainbase<br>│ ├─egenesis<br>│ ├─fc<br>│ ├─src<br>│ ├─native_contract<br>│ ├─types<br>│ ├─utilities<br>│ └─wasm-jit // eos 智能合约使用 WabAssembly 架构<br>├─plugins // 服务器端的各种插件代码<br>│ ├─account_history_api_plugin<br>│ ├─account_history_plugin<br>│ ├─chain_api_plugin<br>│ ├─chain_plugin<br>│ ├─database_plugin<br>│ ├─db_plugin<br>│ ├─faucet_testnet_plugin<br>│ ├─http_plugin<br>│ ├─net_api_plugin<br>│ ├─net_plugin<br>│ ├─producer_plugin<br>│ ├─template_plugin<br>│ ├─txn_test_gen_plugin<br>│ ├─wallet_api_plugin<br>│ └─wallet_plugin<br>├─programs // 主程序代码<br>│ ├─abi_gen<br>│ ├─codegen<br>│ ├─debug_node<br>│ ├─eos-walletd // EOS 服务器端钱包插件<br>│ ├─eosc // EOS 客户端<br>│ ├─eosd // EOS 服务器端<br>│ ├─launcher<br>│ └─snapshot<br>├─scripts<br>├─tests 测试程序<br>└─tools // 工具集</p>
+<p>那么下一步，我们就要尝试建立 EOS 所需的环境，并编译 EOS 工程了，敬请期待。<br>圆方圆区块链汇集大批区块链名师，采取导师值班制，为学员实时解决技术疑难。请关注圆方圆区块链知识星球与导师。（培训咨询请联系船长13826054890微信手机同号）<br><img src="/images/zhishixingqiu.png" alt=""></p>
+<p>作者小笛 ，专注于 EOS 技术研究与区块链智能合约开发.是圆方圆区块链的导师，更多小笛老师的文章和视频请关注圆方圆链圈公众号。<br><img src="/images/yfygongzhong.jpg" alt=""></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/03/08/eos-2/" data-id="cjeim3chp0000ggra2dliwbtt" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2018/03/08/eos-3/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          别傻了，瀑布到来时，一句口号根本守不住你的币
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2018/03/08/mypage/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">我们出发吧</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/03/08/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2018/03/08/eos-3/">别傻了，瀑布到来时，一句口号根本守不住你的币</a>
+          </li>
+        
+          <li>
+            <a href="/2018/03/08/eos-2/">听说你买了 EOS ，连代码什么样都不知道？</a>
+          </li>
+        
+          <li>
+            <a href="/2018/03/08/mypage/">我们出发吧</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
